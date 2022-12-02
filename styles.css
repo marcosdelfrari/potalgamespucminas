@@ -1,0 +1,65 @@
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex !important;
+}
+
+.space {
+  padding: 20px;
+  background-color: #cccccc;
+}
+
+.space3 {
+  padding: 20px;
+  background-color: #233;
+  color: #fff;
+}
+
+.space2 {
+  font-size: 4vw;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.space4 {
+  font-size: 4vw;
+  padding: 20px;
+  color: #000;
+}
+
+.row {
+  margin: 0px !important;
+  align-items: center;
+}
+
+.direito {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back2 {
+  background-color: #ccc !important;
+  color: #000 !important;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: space-between;
+    text-align: center;
+    background: #ddd;
+    padding: 40px;
+}
+@media (max-width: 600px)
+    {
+        .footer {
+            display: block;
+            text-align: center;
+            background: #ddd;
+            padding: 40px;
+        } 
+    }
+.text2 {
+    padding: 20px;
+}
